@@ -1,0 +1,226 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #0d192b;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  height: 470px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #14253d;
+  -webkit-box-shadow: 0 30px 10px 10px #0b1423;
+          box-shadow: 0 30px 10px 10px #0b1423;
+}
+
+.container-e {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+  font-family: "Outfit", sans-serif;
+}
+
+.image-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 275px;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.eye {
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+}
+
+.img-size {
+  width: 100%;
+  height: 275px;
+  border-radius: 6px;
+}
+
+.container-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 19px;
+  margin-top: 12px;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+}
+
+.container-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  margin-top: 12px;
+  font-weight: 400px;
+  color: #4a5c78;
+}
+
+.container-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-eth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 88px;
+  color: #44b7da;
+}
+
+.text-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-right: 10px;
+  color: #4a5c78;
+}
+
+hr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  border-color: #2f415b;
+}
+
+.container-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  width: 100%;
+}
+
+.size-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.position-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.name-user {
+  cursor: pointer;
+  color: white;
+}
+
+.name-user:hover {
+  color: #44b7da;
+}
+
+.container-text:hover {
+  color: #44b7da;
+}
+
+.image-icon:hover {
+  background-color: #44b7da;
+}
+
+.image-icon:hover .eye {
+  visibility: visible;
+}
+
+.image-icon:hover .img-size {
+  opacity: 50%;
+}
+
+.eye:hover {
+  visibility: visible;
+}
+
+.eye:hover .image-icon {
+  background-color: #44b7da;
+}
+
+.eye:hover .img-size {
+  opacity: 50%;
+}
+/*# sourceMappingURL=style.css.map */
