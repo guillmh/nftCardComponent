@@ -40,7 +40,7 @@ Aprendi conceptos basicos de HTML Y CSS, tambien sobre el procesador Sass, princ
 
 ### Continuar con el Desarrollo
 
-Quiero seguir aprendido mas a fondo HTML y CSS para tner bases solidas, tambien quiero centrarme en hacer codigo mas ordenado y limpio es algo en lo que seguire trabjando.
+Quiero seguir aprendido mas a fondo HTML y CSS para tener bases solidas, tambien quiero centrarme en hacer codigo mas ordenado y limpio es algo en lo que seguire trabjando.
 
 
 ### Recursos
