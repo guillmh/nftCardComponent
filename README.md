@@ -21,7 +21,7 @@ Los usuarios deben ser capaces de:
 ### Links
 
 
-- URL del sitio: [Add live site URL here](https://guill-mh.github.io/nftCardComponent/)
+- URL del sitio: [Live site URL here](https://guill-mh.github.io/nftCardComponent/)
 
 
 ### Construido con
